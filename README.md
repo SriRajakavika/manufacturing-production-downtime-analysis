@@ -113,7 +113,7 @@ The Power BI dashboard provides analysis of:
 
 ### 🖼️ Dashboard Preview
 
-_Add your dashboard screenshots here._
+![Dashboard Home](Screenshots/a.home.png)
 
 ---
 
