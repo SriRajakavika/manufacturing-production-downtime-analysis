@@ -1,53 +1,75 @@
-Manufacturing Production & Downtime Analysis
+# Manufacturing Production & Downtime Analysis
 
-An end-to-end data analytics project that analyzes manufacturing production, downtime, defects, and maintenance data using Python, SQL, and Power BI.
+End-to-end data analytics project analyzing production performance, downtime, quality, and maintenance across manufacturing plants.
 
-🎯 Objective
-Analyze planned vs. actual production.
-Identify production gaps and underperforming plants.
-Analyze downtime, defects, and maintenance patterns.
-Build an interactive Power BI dashboard for operational insights.
-🛠️ Tools Used
-Python
-Pandas
-NumPy
-Matplotlib
-Seaborn
-SQL
-Power BI
-DAX
-📊 Key Results
-KPI	Value
-Planned Production	15,832,893
-Actual Production	14,938,596
-Production Gap	894,297
-Achievement Rate	94.35%
-Downtime Events	12,000
-Maintenance Events	5,000
-🔍 Key Insights
-P01 (Chennai) achieved the highest production rate at 96.76%.
-P02 (Pune) recorded the lowest achievement rate at 92.79% and the largest production gap.
-L04 was the best-performing production line with 96.80% achievement.
-L06 recorded the lowest achievement rate at 92.76%.
-The project analyzed production, downtime, quality, and maintenance performance to identify operational improvement areas.
-📁 Project Files
+## Tools Used
+
+- Python
+- Pandas
+- NumPy
+- Matplotlib
+- Seaborn
+- SQL
+- Power BI
+- DAX
+
+## Project Highlights
+
+- 4 Manufacturing Plants
+- 20 Production Lines
+- 20 Products
+- 3 Shifts
+- 34,985 Production Records
+- 12,000 Downtime Records
+- 8,000 Defect Records
+- 5,000 Maintenance Records
+
+## Key KPIs
+
+| KPI | Value |
+|---|---:|
+| Planned Production | 15,832,893 |
+| Actual Production | 14,938,596 |
+| Production Gap | 894,297 |
+| Achievement Rate | 94.35% |
+| Downtime Events | 12,000 |
+| Average Downtime | 58.99 mins |
+
+## Key Insights
+
+- P01 Chennai achieved the highest production performance at 96.76%.
+- P02 Pune recorded the lowest achievement rate at 92.79%.
+- P02 also had the largest production gap.
+- L04 was the highest-performing production line at 96.80%.
+- L06 recorded the lowest achievement rate at 92.76%.
+
+## Project Structure
+
+manufacturing-production-downtime-analysis/
+│
 ├── Python/
 │   └── MFP_Data_Analysis.ipynb
+│
 ├── SQL/
 │   └── manufacturing.sql
+│
 ├── PowerBI/
 │   └── Manufacturing_Production_Downtime_Analysis.pbix
-└── Screenshots/
-    └── Dashboard screenshots
-📈 Dashboard
+│
+├── Screenshots/
+│   ├── Home.png
+│   ├── Plant_Overview.png
+│   ├── Shift_Overview.png
+│   ├── Monthly_Trend.png
+│   ├── Product_Quality.png
+│   └── Reliability.png
+│
+└── README.md
 
-The Power BI dashboard covers:
+## Dashboard
 
-Plant Overview
-Shift Overview
-Monthly Trends
-Product & Quality Analysis
-Reliability & Maintenance
-👩‍💻 Author
+Dashboard screenshots are available in the `Screenshots` folder.
 
-Your Name
+## Skills
+
+Python · SQL · Power BI · Data Cleaning · EDA · Data Visualization · Data Analysis
